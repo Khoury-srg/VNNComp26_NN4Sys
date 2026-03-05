@@ -1,4 +1,20 @@
-# Characterizing Neural Network Verification for Systems with NN4SysBench
+# NN4SysBench: Characterizing Neural Network Verification for Systems
+
+## ⚠️Important Note for MSCN Models
+
+The `mscn_2048d.onnx` model is included in this repository.
+
+However, due to Git LFS storage restrictions, the `mscn_2048d_dual.onnx` model is **not** stored in this repo.
+
+If you have trouble obtaining it via Git LFS, you can download the `mscn_2048d_dual.onnx` model from the following Google Drive link:
+
+[Google Drive - MSCN Models](https://drive.google.com/drive/folders/1p_U812OnrMBjQpn5YHhldvHbUmKfnOuh?usp=sharing)
+
+After downloading, please place the `mscn_2048d_dual.onnx` file inside the `onnx` directory.
+
+---
+
+## Introduction
 We propose a new set of benchmarks for neural network verification for systems (NN4Sys) in this repository. This suite includes verification benchmark for learned index, learned cardinality and learned video stream, which are three tasks that apply neural networks to solve traditional tasks for systems. 
 
 ## Learned Index
@@ -122,15 +138,5 @@ To install dependencies, run:
 pip install -r requirements.txt
 ```
 
-## MSCN Models
 
-The `mscn_2048d.onnx` model is included in this repository.
-
-However, due to Git LFS storage restrictions, the `mscn_2048d_dual.onnx` model is **not** stored in this repo.
-
-If you have trouble obtaining it via Git LFS, you can download the `mscn_2048d_dual.onnx` model from the following Google Drive link:
-
-[Google Drive - MSCN Models](https://drive.google.com/drive/folders/1p_U812OnrMBjQpn5YHhldvHbUmKfnOuh?usp=sharing)
-
-After downloading, please place the `mscn_2048d_dual.onnx` file inside the `onnx` directory.
 
